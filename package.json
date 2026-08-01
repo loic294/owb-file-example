@@ -1,6 +1,7 @@
 {
   "name": "owb-file-example",
   "private": true,
+  "license": "SEE LICENSE IN LICENSE",
   "type": "module",
   "scripts": {
     "dev": "OWB_SITE_CONFIG=./owb.config.js vite",
