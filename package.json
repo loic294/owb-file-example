@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "OWB_SITE_CONFIG=./owb.config.js vite",
     "build": "OWB_SITE_CONFIG=./owb.config.js vite build",
-    "generate": "node ./scripts/publish.mjs"
+    "publish": "node ./scripts/publish.mjs"
   },
   "dependencies": {
-    "open-website-builder": "file:../open-website-builder"
+    "open-website-builder": "^0.1.1"
   },
   "devDependencies": {
     "vite": "^5.0.0"
