@@ -19,7 +19,7 @@ const publishProvider = createFilesystemPublishProvider({
 const result = await publishSite({
   publishProvider,
   outputDir: siteConfig.publishedOutputDir,
-  appRoot: resolve(siteRoot, "../open-website-builder"),
+  appRoot: siteConfig.packageRoot,
 });
 
 process.stdout.write(`Published ${result.pages.length} output(s)\n`);
