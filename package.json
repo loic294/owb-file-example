@@ -1,0 +1,16 @@
+{
+  "name": "owb-file-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "OWB_SITE_CONFIG=./owb.config.js vite",
+    "build": "OWB_SITE_CONFIG=./owb.config.js vite build",
+    "publish": "node ./scripts/publish.mjs"
+  },
+  "dependencies": {
+    "open-website-builder": "file:../open-website-builder"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

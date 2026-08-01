@@ -1,0 +1,53 @@
+{
+  "type": "page",
+  "id": "about",
+  "title": "About",
+  "url": "/about",
+  "seo": {
+    "title": "About the File Example",
+    "description": "How this example stores content and public files.",
+    "image": "",
+    "noIndex": false
+  },
+  "content": [
+    {
+      "id": "section-about-header",
+      "type": "section",
+      "content": [
+        {
+          "id": "shared-site-header-about",
+          "type": "shared",
+          "settings": { "shared_component_id": "site-header" },
+          "content": []
+        }
+      ],
+      "settings": {}
+    },
+    {
+      "id": "section-about",
+      "type": "section",
+      "content": [
+        {
+          "id": "text-about",
+          "type": "text",
+          "content": "<h1>About</h1><p>Pages, collections, and shared components live in ordinary JSON files. Public assets remain ordinary files too.</p>",
+          "settings": {}
+        }
+      ],
+      "settings": {}
+    },
+    {
+      "id": "section-about-footer",
+      "type": "section",
+      "content": [
+        {
+          "id": "shared-site-footer-about",
+          "type": "shared",
+          "settings": { "shared_component_id": "site-footer" },
+          "content": []
+        }
+      ],
+      "settings": {}
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "photo-index",
+  "title": "Photo Index",
+  "url": "/projects/photo-index",
+  "excerpt": "An index prepared for image metadata.",
+  "seo": { "title": "Photo Index", "description": "An index prepared for image metadata.", "image": "", "noIndex": false },
+  "content": [{ "id": "section-photo-index", "type": "section", "content": [{ "id": "text-photo-index", "type": "text", "content": "<p>Image metadata and image binaries can remain visible as ordinary files.</p>", "settings": {} }], "settings": {} }]
+}

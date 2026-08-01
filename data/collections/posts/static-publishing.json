@@ -1,0 +1,8 @@
+{
+  "id": "static-publishing",
+  "title": "Static Publishing",
+  "url": "/posts/static-publishing",
+  "excerpt": "File input, static output.",
+  "seo": { "title": "Static Publishing", "description": "File input, static output.", "image": "", "noIndex": false },
+  "content": [{ "id": "section-static-publishing", "type": "section", "content": [{ "id": "text-static-publishing", "type": "text", "content": "<p>Publishing reads JSON files and emits ordinary HTML that can be deployed anywhere.</p>", "settings": {} }], "settings": {} }]
+}

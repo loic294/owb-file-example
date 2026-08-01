@@ -1,0 +1,20 @@
+{
+  "id": "site-footer",
+  "type": "shared",
+  "title": "Site footer",
+  "content": [
+    {
+      "id": "section-site-footer",
+      "type": "section",
+      "content": [
+        {
+          "id": "text-site-footer",
+          "type": "text",
+          "content": "<footer><p>OWB File Example · Content stored as JSON files.</p></footer>",
+          "settings": {}
+        }
+      ],
+      "settings": {}
+    }
+  ]
+}

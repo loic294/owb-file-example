@@ -1,0 +1,39 @@
+{
+  "id": "projects",
+  "title": "Projects",
+  "fields": {
+    "title": { "type": "string", "required": true },
+    "content": { "type": "array", "required": true },
+    "excerpt": { "type": "string", "required": false },
+    "metadata": { "type": "object", "required": false },
+    "seo": { "type": "object", "required": false }
+  },
+  "metadataFields": {},
+  "content": [
+    {
+      "id": "section-projects-navigation",
+      "type": "section",
+      "content": [{ "id": "shared-projects-header", "type": "shared", "settings": { "shared_component_id": "site-header" }, "content": [] }],
+      "settings": {}
+    },
+    {
+      "id": "section-projects-header",
+      "type": "section",
+      "content": [{ "id": "text-projects-title", "type": "text", "content": "<h1>{{title}}</h1><p>{{excerpt}}</p>", "settings": {} }],
+      "settings": {}
+    },
+    {
+      "id": "section-projects-content",
+      "type": "section",
+      "content": [{ "id": "collection-content-projects", "type": "collection-content" }],
+      "settings": {}
+    },
+    {
+      "id": "section-projects-footer",
+      "type": "section",
+      "content": [{ "id": "shared-projects-footer", "type": "shared", "settings": { "shared_component_id": "site-footer" }, "content": [] }],
+      "settings": {}
+    }
+  ],
+  "collectionMetadataAllowlist": []
+}

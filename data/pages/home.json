@@ -1,0 +1,53 @@
+{
+  "type": "page",
+  "id": "home",
+  "title": "Home",
+  "url": "/",
+  "seo": {
+    "title": "OWB File Example",
+    "description": "A file-backed Open Website Builder example.",
+    "image": "",
+    "noIndex": false
+  },
+  "content": [
+    {
+      "id": "section-home-header",
+      "type": "section",
+      "content": [
+        {
+          "id": "shared-site-header-home",
+          "type": "shared",
+          "settings": { "shared_component_id": "site-header" },
+          "content": []
+        }
+      ],
+      "settings": {}
+    },
+    {
+      "id": "section-home-intro",
+      "type": "section",
+      "content": [
+        {
+          "id": "text-home-intro",
+          "type": "text",
+          "content": "<h1>Files, meet the open web.</h1><p>This site stores its editable content as JSON documents.</p>",
+          "settings": {}
+        }
+      ],
+      "settings": {}
+    },
+    {
+      "id": "section-home-footer",
+      "type": "section",
+      "content": [
+        {
+          "id": "shared-site-footer-home",
+          "type": "shared",
+          "settings": { "shared_component_id": "site-footer" },
+          "content": []
+        }
+      ],
+      "settings": {}
+    }
+  ]
+}

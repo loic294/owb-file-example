@@ -1,0 +1,8 @@
+{
+  "id": "sqlite-basics",
+  "title": "SQLite Basics",
+  "url": "/posts/sqlite-basics",
+  "excerpt": "A compact database for durable content.",
+  "seo": { "title": "SQLite Basics", "description": "A compact database for durable content.", "image": "", "noIndex": false },
+  "content": [{ "id": "section-sqlite-basics", "type": "section", "content": [{ "id": "text-sqlite-basics", "type": "text", "content": "<p>SQLite keeps an example portable while providing transactions and constraints.</p>", "settings": {} }], "settings": {} }]
+}

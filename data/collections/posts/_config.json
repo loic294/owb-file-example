@@ -1,0 +1,39 @@
+{
+  "id": "posts",
+  "title": "Posts",
+  "fields": {
+    "title": { "type": "string", "required": true },
+    "content": { "type": "array", "required": true },
+    "excerpt": { "type": "string", "required": false },
+    "metadata": { "type": "object", "required": false },
+    "seo": { "type": "object", "required": false }
+  },
+  "metadataFields": {},
+  "content": [
+    {
+      "id": "section-posts-navigation",
+      "type": "section",
+      "content": [{ "id": "shared-posts-header", "type": "shared", "settings": { "shared_component_id": "site-header" }, "content": [] }],
+      "settings": {}
+    },
+    {
+      "id": "section-posts-header",
+      "type": "section",
+      "content": [{ "id": "text-posts-title", "type": "text", "content": "<h1>{{title}}</h1><p>{{excerpt}}</p>", "settings": {} }],
+      "settings": {}
+    },
+    {
+      "id": "section-posts-content",
+      "type": "section",
+      "content": [{ "id": "collection-content-posts", "type": "collection-content" }],
+      "settings": {}
+    },
+    {
+      "id": "section-posts-footer",
+      "type": "section",
+      "content": [{ "id": "shared-posts-footer", "type": "shared", "settings": { "shared_component_id": "site-footer" }, "content": [] }],
+      "settings": {}
+    }
+  ],
+  "collectionMetadataAllowlist": []
+}

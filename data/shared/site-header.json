@@ -1,0 +1,20 @@
+{
+  "id": "site-header",
+  "type": "shared",
+  "title": "Site header",
+  "content": [
+    {
+      "id": "section-site-header",
+      "type": "section",
+      "content": [
+        {
+          "id": "text-site-header",
+          "type": "text",
+          "content": "<header><nav aria-label=\"Primary navigation\"><a href=\"/\">Home</a> · <a href=\"/about\">About</a> · <a href=\"/posts/sqlite-basics\">SQLite Basics</a> · <a href=\"/posts/document-storage\">Document Storage</a> · <a href=\"/posts/static-publishing\">Static Publishing</a> · <a href=\"/projects/field-notes\">Field Notes</a> · <a href=\"/projects/photo-index\">Photo Index</a> · <a href=\"/projects/public-archive\">Public Archive</a></nav></header>",
+          "settings": {}
+        }
+      ],
+      "settings": {}
+    }
+  ]
+}

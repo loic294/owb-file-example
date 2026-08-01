@@ -1,0 +1,8 @@
+{
+  "id": "document-storage",
+  "title": "Document Storage",
+  "url": "/posts/document-storage",
+  "excerpt": "Preserving flexible component data.",
+  "seo": { "title": "Document Storage", "description": "Preserving flexible component data.", "image": "", "noIndex": false },
+  "content": [{ "id": "section-document-storage", "type": "section", "content": [{ "id": "text-document-storage", "type": "text", "content": "<p>Complete JSON documents preserve custom fields without a rigid content schema.</p>", "settings": {} }], "settings": {} }]
+}

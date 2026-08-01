@@ -1,0 +1,8 @@
+{
+  "id": "public-archive",
+  "title": "Public Archive",
+  "url": "/projects/public-archive",
+  "excerpt": "Static files stay visible and portable.",
+  "seo": { "title": "Public Archive", "description": "Static files stay visible and portable.", "image": "", "noIndex": false },
+  "content": [{ "id": "section-public-archive", "type": "section", "content": [{ "id": "text-public-archive", "type": "text", "content": "<p>The public directory is copied directly into each published build.</p>", "settings": {} }], "settings": {} }]
+}
